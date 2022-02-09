@@ -43,22 +43,13 @@ body {
     max-width: 100%;
 }
 
-.projects {
+.intro, .projects, .contact {
     display: flex;
     flex-wrap: wrap;
 }
 
-.projects ul {
-    padding: 10px;
-    margin-left: 5%;
-}
-
-.intro{
-    display: flex;
-}
-
-.projects {
-    display: flex;
+.intro ul, .projects ul, .contact ul {
+    width: 80%
 }
 
 .column25 {
@@ -106,7 +97,7 @@ body {
 
 .primaryproject img {
     border: 1px solid;
-    height: 50vh;
+    height: 50%;
     width: 100%;
 }
 
@@ -114,7 +105,6 @@ body {
     border: 1px solid;
     height: auto;
     width: 100%;
-    
 }
 
 .project-name {
@@ -159,13 +149,51 @@ body {
       font-size: 20px;
     }
   
-    footer h2, footer div {
-      text-align: center;
-      width: 100%;
-    }
-  
     .section-title {
-      width: 80%;
+        border-right: 0px solid;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .column25 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 40%;
+    }
+
+    .intro, .projects, .contact {
+        justify-content: center;
+    }
+
+    .intro ul, .projects ul, .contact ul {
+        padding: 0px;
+    }
+
+    .primaryproject img {
+        border: 1px solid;
+        height: 50%;
+        width: 100%;
+    }
+    
+    .secondaryproject img {
+        border: 1px solid;
+        height: 50%;
+        width: 100%;
+    }
+
+    .project-name {
+        position: absolute;
+        bottom: 30px;
+        border: 1px solid;
+        border-color: black;
+        background-color: aqua;
+        color: black;
+        padding: 0;
+        font-size: 10px;
+    }   
+
+    .project-name p {
+        font-size: 0px;
     }
 
     .section-para {
