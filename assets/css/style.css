@@ -99,16 +99,21 @@ body {
     /* position: relative; */
 }
 
+.projects ul {
+    width: 75%;
+}
+
 .primaryproject img {
     border: 1px solid;
     height: 50vh;
-    width: 70vw;
+    width: 100%;
+    margin: 10px;
 }
 
 .secondaryproject img {
     border: 1px solid;
     height: auto;
-    width: 0vh;
+    width: 100%;
     
 }
 
@@ -123,11 +128,6 @@ body {
     padding: 10px 20px;
 }
 
-footer {
-    padding: 10px;
-    text-align: center;
-    background-color: aqua;
-}
 
 @media screen and (max-width: 980px) {
     header {
@@ -162,7 +162,4 @@ footer {
     .section-para {
         width: 80%;
     }
-
-
-    
   }
