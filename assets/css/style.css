@@ -12,7 +12,7 @@ header {
 }
 
 header h1 {
-    background-color: aquamarine;
+    background-color: aqua;
     padding: 10px 40px;
 }
 
@@ -89,14 +89,15 @@ body {
 
 .section-para {
     font-size: 25px;
+    width: 80%;
 }
 
 .primaryproject {
-    /* position: relative; */
+    position: relative;
 }
 
 .secondaryproject {
-    /* position: relative; */
+    position: relative;
 }
 
 .projects ul {
@@ -107,7 +108,6 @@ body {
     border: 1px solid;
     height: 50vh;
     width: 100%;
-    margin: 10px;
 }
 
 .secondaryproject img {
@@ -119,13 +119,22 @@ body {
 
 .project-name {
     position: absolute;
-    bottom: 10px;
-    right: 10px;
+    bottom: 30px;
     border: 1px solid;
     border-color: black;
-    background-color: white;
+    background-color: aqua;
     color: black;
-    padding: 10px 20px;
+    padding: 0 10px;
+}
+
+.project-name h4 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.project-name p {
+    font-size: 15px;
+    margin: 10px;
 }
 
 
