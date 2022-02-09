@@ -1,0 +1,56 @@
+* {
+    font-size: 20px;
+}
+
+header {
+    padding: 20px 40px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header h1 a {
+    font-size: 50px;
+    color: white;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+}
+
+header nav ul li a {
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.section-title {
+    font-size: 30px;
+    border-bottom: 2px solid;
+    border-color: black;
+    text-align: center;
+    padding-bottom: 20px;
+    width: 25%;
+    margin: 35px auto;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects img {
+    border: 1px solid;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: aqua;
+}
