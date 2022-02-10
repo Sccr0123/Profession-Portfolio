@@ -160,6 +160,7 @@ body {
     header h1 {
       width: 100%;
       text-align: center;
+      border-radius: 0;
     }
   
     header nav ul {
