@@ -108,7 +108,7 @@ body {
 .secondaryproject img {
     border: 1px solid;
     height: auto;
-    width: 100%;
+    width: 98%;
 }
 
 .project-name {
@@ -118,6 +118,7 @@ body {
     border-color: black;
     background-color: aqua;
     color: black;
+    margin: 0 0 0 -5px;
     padding: 0 10px;
 }
 
