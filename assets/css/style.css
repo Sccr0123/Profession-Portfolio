@@ -10,6 +10,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     position: sticky;
+    position: -webkit-sticky; /*Adds Sticky Support For Safari */
     top: 0;
 }
 
@@ -41,6 +42,14 @@ header nav ul li a {
     font-size: 30px;
     color: white;
 }
+
+/* Apply Different Styles When The User Hovers Over */
+header nav ul li a:hover {
+    background-color: aqua;
+    color: black;
+    border-radius: 15px;
+    text-shadow: none;
+  }
 
 body {
     background-color: lightgray;
@@ -140,6 +149,7 @@ body {
     header {
       padding-bottom: 0;
       justify-content: center;
+      position: relative
     }
   
     header h1 {
