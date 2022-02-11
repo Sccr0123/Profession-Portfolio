@@ -54,7 +54,7 @@ header nav ul li a:hover {
     color: black;
     border-radius: 15px;
     text-shadow: none;
-  }
+}
 
 body {
     background-color: lightgray;
@@ -167,27 +167,35 @@ body {
 
 @media screen and (max-width: 980px) {
     header {
-      padding-bottom: 0;
-      justify-content: center;
-      position: relative
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative
     }
-  
+
     header h1 {
-      width: 100%;
-      text-align: center;
-      border-radius: 0;
+        width: 100%;
+        text-align: center;
+        border-radius: 0;
     }
-  
+
     header nav ul {
-      margin-top: 20px;
-      width: 100%;
-      justify-content: center;
+        margin-top: 20px;
+        width: 100%;
+        height: 75px;
+        justify-content: center;
     }
-  
+
     header nav ul li a {
-      font-size: 20px;
+        font-size: 20px;
     }
-  
+
+    header nav ul li a:hover {
+        background-color: transparent;
+        color: aqua;
+        border-radius: initial;
+        text-shadow: none;
+    }
+
     .section-title {
         border-right: 0px solid;
         justify-content: center;
@@ -238,4 +246,4 @@ body {
     .section-para {
         width: 80%;
     }
-  }
+}
