@@ -62,6 +62,7 @@ body {
 
 .hero img{
     max-width: 100%;
+    border-radius: 0 0 10px 10px;
 }
 
 .intro, .projects, .contact {
@@ -84,6 +85,10 @@ body {
 
 }
 
+.column-right {
+    /* margin-left: 14px; */
+}
+
 .contact {
     display: flex;
 }
@@ -104,11 +109,11 @@ body {
     width: 80%;
 }
 
-.primaryproject {
+.primary-project {
     position: relative;
 }
 
-.secondaryproject {
+.secondary-project-left, .secondary-project-right {
     position: relative;
 }
 
@@ -116,16 +121,25 @@ body {
     width: 75%;
 }
 
-.primaryproject img {
+.primary-project img {
     border: 1px solid;
     height: 50%;
     width: 100%;
+    border-radius: 15px;
+    margin-bottom: 1%;
 }
 
-.secondaryproject img {
+.secondary-project-left img, .secondary-project-right img {
     border: 1px solid;
     height: auto;
     width: 98%;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.secondary-project-right img {
+    margin-left: 2%;
 }
 
 .project-name {
@@ -137,6 +151,7 @@ body {
     color: black;
     margin: 0 0 0 -5px;
     padding: 0 10px;
+    border-radius: 10px;
 }
 
 .project-name h4 {
