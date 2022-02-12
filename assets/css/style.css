@@ -149,6 +149,8 @@ body {
     border-radius: 10px;
 }
 
+
+/* Corrects Spacing Issue On Seconday Project Right Column With The Project Name */
 .secondary-project-right .project-name {
     margin-left: 1%;
 }
@@ -163,7 +165,7 @@ body {
     margin: 10px;
 }
 
-
+/* Adjusts Styles For Screens Under 980px */
 @media screen and (max-width: 980px) {
     header {
         padding-bottom: 0;
