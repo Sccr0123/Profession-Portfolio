@@ -60,6 +60,22 @@ body {
 .hero img{
     max-width: 100%;
     border-radius: 0 0 10px 10px;
+    height: 60vh;
+    width: 100vw;
+}
+
+.hero h2 {
+    position: absolute;
+    font-size: 50px;
+    right: 0;
+    bottom: 25%;
+    border: 1px solid;
+    border-color: black;
+    background-color: var(--primary-color);
+    color: black;
+    margin: 0 0 0 -5px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .intro, .projects, .contact {
@@ -102,7 +118,7 @@ body {
     width: 80%;
 }
 
-.primary-project a {
+.primary-project {
     position: relative;
 }
 
