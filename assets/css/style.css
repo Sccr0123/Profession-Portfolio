@@ -87,6 +87,14 @@ body {
     width: 80%
 }
 
+.intro img {
+    position: absolute;
+    right: 0;
+    margin: 4vh 1vw;
+    height: 30vh;
+    width: 15vw;
+}
+
 .column25 {
     float: left;
     width: 25%;
@@ -214,6 +222,10 @@ body {
         text-shadow: none;
     }
 
+    .section-para img {
+        width: 40vw;
+    }
+
     .section-title {
         border-right: 0px solid;
         justify-content: center;
@@ -228,6 +240,13 @@ body {
 
     .intro, .projects, .contact {
         justify-content: center;
+    }
+
+    .intro img {
+        position: absolute;
+        right: 0;
+        height: 0;
+        width: 0;
     }
 
     .intro ul, .projects ul, .contact ul {
